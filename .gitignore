@@ -1,0 +1,17 @@
+# .gitignore
+
+# 1. 파이썬 캐시 파일 (업로드 금지)
+__pycache__/
+*.pyc
+
+# 2. 대용량 데이터 파일 (깃허브 용량 제한 걸림)
+data/processed/
+
+# 3. 학습 중인 체크포인트 (너무 많음)
+saved_models/checkpoints/
+
+# 4. VS Code 설정 폴더
+.vscode/
+
+# (옵션) 학습된 모델은 올리고 싶으면 이 줄은 지우세요.
+# saved_models/*.pth
