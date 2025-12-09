@@ -60,7 +60,7 @@ sudoku-transformer-6x6/
 
 ```bash
 # 레포지토리 다운로드
-git clone [본인의_깃허브_레포지토리_주소]
+git clone https://github.com/jinsan02/sudoku-transformer-6x6.git
 cd sudoku-transformer-6x6
 
 # 라이브러리 설치
